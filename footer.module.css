@@ -1,0 +1,20 @@
+.footer{
+    background-color: #249fb4;
+    color: #1d1919;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+   bottom: 0;
+   display: flex;
+   justify-content: space-between;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+.footerItem{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.footerItem:hover{
+    color: #ff6347;
+}

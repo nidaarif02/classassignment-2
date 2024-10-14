@@ -1,0 +1,44 @@
+.header{
+    background-color: #249fb4;
+    color: #fff;
+    padding: 20px;
+    height: 80px;
+    text-align: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navItem{
+    font-size: 1.25rem;
+    transition: color 0.3s;
+}
+.navItem:hover{
+    color: #ff6347;
+}
+.signInButton{
+    background-color: #ff6347;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.header h1{
+    color: #1b1717;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+}
+.header ul{
+    list-style:circle;
+    padding: 20px;
+}
+.header ul li {
+    display:inline-block;
+    margin: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.header ul li a {
+    color: #fff;
+    text-decoration:dotted;
+}

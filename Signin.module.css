@@ -1,0 +1,76 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #8ebdf0;
+    font-weight: bold;
+    font-size: large;
+    padding: 20px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    z-index: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #be7373;
+    border-radius: 10px;
+}
+.formGroup{
+    margin-bottom: 20px;
+}
+.formGroup label{
+    display:block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.formGroup input{
+    padding: 5px;
+    border: 1px solid #d8cbcb;
+    border-radius: 5px;
+}
+.button{
+    padding: 1rem;
+    background-color: rgb(216, 38, 38);
+    color: #fff;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0,3s ease;
+}
+.button:hover{
+    background-color: #0069d9;
+}
+.text{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color:black;
+    font-weight: bold;
+}
+.text a{
+    color: #007bff;
+    text-decoration: none;
+}
+.text a:hover{
+    text-decoration: underline;
+}
+.title{
+font-size: 2rem;
+margin-bottom: 1rem;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #004a99;
+
+}
